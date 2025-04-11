@@ -12,7 +12,7 @@ public class gustos : MonoBehaviour
     {
         if (codigoHelado == "" || gramosHelado > 3000 || gramosHelado < 250)
         {
-            Debug.Log("Los valores son validos");
+            Debug.Log("Los valores son invalidos");
             return;
         }
         if (codigoHelado == "FRU")
